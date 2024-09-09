@@ -1,0 +1,776 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+input {
+    cursor: pointer;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 1000;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.xdmt ul {
+    display: none;
+}
+
+.mnt {
+    font-size: 1.3rem;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.son {
+    display: flex;
+    gap: 40px;
+}
+
+.drop {
+    font-size: 1.3em;
+    cursor: pointer;
+
+}
+
+.buton1,
+.buton2 {
+    display: none;
+    cursor: pointer;
+}
+
+main {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteinr {
+    background-color: #f5f5f5;
+    width: 90%;
+    height: fit-content;
+    display: inline-block;
+}
+
+.statik {
+    width: 100%;
+    background-color: #f8f8fa;
+    height: 300px;
+}
+
+.rqm1 {
+    margin: 10px 10px;
+    font-size: 1.1rem;
+    background-color: #a271f2;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 10px;
+}
+
+#inpt1 {
+    width: 80%;
+    appearance: none;
+    border-radius: 20px;
+}
+
+.olcu1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.xerc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #dee7f1;
+    height: 60px;
+    padding: 0 15px;
+}
+
+.hsb1 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #a271f2;
+}
+
+.card1 {
+    width: 97%;
+    padding-right: 20px;
+    height: fit-content;
+}
+
+.olcu2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hsbsade {
+    margin-right: 20px;
+    width: 60%;
+}
+
+.sade {
+    display: flex;
+    gap: 30%;
+}
+
+#inpt2 {
+    width: 100%;
+}
+
+.veb {
+    font-size: 1.3rem;
+    margin: 30px 20px;
+}
+
+.form1 {
+    background-color: #f8f8fa;
+    margin: 0 20px;
+    width: 97%;
+    max-height: fit-content;
+
+}
+
+.lbl1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.lbl1 label {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 21px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.3s linear;
+    cursor: pointer;
+}
+
+.lbl1 label:after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.2s ease-out;
+}
+
+.lbl1 input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: none;
+}
+
+#xana:checked~label {
+    background-color: #a271f2;
+}
+
+#xana:checked~label:after {
+    left: 25px;
+}
+
+#xana1:checked~label {
+    background-color: #a271f2;
+}
+
+#xana1:checked~label:after {
+    left: 25px;
+}
+
+#xana2:checked~label {
+    background-color: #a271f2;
+}
+
+#xana2:checked~label:after {
+    left: 25px;
+}
+
+#xana3:checked~label {
+    background-color: #a271f2;
+}
+
+#xana3:checked~label:after {
+    left: 25px;
+}
+
+#xana4:checked~label {
+    background-color: #a271f2;
+}
+
+#xana4:checked~label:after {
+    left: 25px;
+}
+
+#xana5:checked~label {
+    background-color: #a271f2;
+}
+
+#xana5:checked~label:after {
+    left: 25px;
+}
+
+#xana6:checked~label {
+    background-color: #a271f2;
+}
+
+#xana6:checked~label:after {
+    left: 25px;
+}
+
+#xana7:checked~label {
+    background-color: #a271f2;
+}
+
+#xana7:checked~label:after {
+    left: 25px;
+}
+
+#xana8:checked~label {
+    background-color: #a271f2;
+}
+
+#xana8:checked~label:after {
+    left: 25px;
+}
+
+#xana9:checked~label {
+    background-color: #a271f2;
+}
+
+#xana9:checked~label:after {
+    left: 25px;
+}
+
+#xana10:checked~label {
+    background-color: #a271f2;
+}
+
+#xana10:checked~label:after {
+    left: 25px;
+}
+
+#xana11:checked~label {
+    background-color: #a271f2;
+}
+
+#xana11:checked~label:after {
+    left: 25px;
+}
+
+#xana12:checked~label {
+    background-color: #a271f2;
+}
+
+#xana12:checked~label:after {
+    left: 25px;
+}
+
+#xana13:checked~label {
+    background-color: #a271f2;
+}
+
+#xana13:checked~label:after {
+    left: 25px;
+}
+
+.xerc1 {
+    background-color: #dee7f1;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+}
+
+.hiseler {
+    display: inherit;
+}
+
+.hisseler {
+    display: inherit;
+}
+
+.form2 {
+    background-color: #f8f8fa;
+    margin: 0 20px;
+    width: 97%;
+    height: fit-content;
+}
+
+.container1 {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.container1 input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.container1 input:checked+.checkmark {
+    background-color: #a271f2;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+.container1 input:checked+.checkmark:after {
+    display: block;
+}
+
+
+.container1 .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.hisse {
+    display: flex;
+    padding: 30px 30px;
+    column-gap: 100px;
+}
+
+.lbl2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.lbl2 label {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 21px;
+    border: 1px solid #eeeeee;
+    background-color: #d7d8da;
+    border-radius: 15px;
+    transition: background 0.3s linear;
+    cursor: pointer;
+}
+
+.lbl2 label:after {
+    content: "";
+    position: absolute;
+    left: -1px;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    transition: left 0.2s ease-out;
+}
+
+.lbl2 input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: none;
+}
+
+#xana14:checked~label {
+    background-color: #a271f2;
+}
+
+#xana14:checked~label:after {
+    left: 25px;
+}
+
+#xana15:checked~label {
+    background-color: #a271f2;
+}
+
+#xana15:checked~label:after {
+    left: 25px;
+}
+
+#xana16:checked~label {
+    background-color: #a271f2;
+}
+
+#xana16:checked~label:after {
+    left: 25px;
+}
+
+#xana17:checked~label {
+    background-color: #a271f2;
+}
+
+#xana17:checked~label:after {
+    left: 25px;
+}
+
+#xana18:checked~label {
+    background-color: #a271f2;
+}
+
+#xana18:checked~label:after {
+    left: 25px;
+}
+
+#xana19:checked~label {
+    background-color: #a271f2;
+}
+
+#xana19:checked~label:after {
+    left: 25px;
+}
+
+.form3 {
+    background-color: #f8f8fa;
+    margin: 0 20px;
+    width: 97%;
+    height: fit-content;
+}
+
+.form4 {
+    background-color: #f8f8fa;
+    margin: 0 20px;
+    width: 97%;
+    height: fit-content;
+}
+
+.form4 .txt {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+
+}
+
+.inptx {
+    display: flex;
+    justify-content: center;
+}
+
+.inptx input {
+    width: 90%;
+
+}
+
+.card2 {
+    background-color: #f5f5f5;
+    width: 97%;
+    margin: 20px 12px;
+    height: fit-content;
+}
+
+.card2 p {
+    padding: 20px 30px;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.stat span {
+    color: #90909b;
+    font-weight: 400;
+}
+
+.stat .deyer {
+    color: #a271f2;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+hr {
+    width: 100%;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
+.umumi {
+    background-color: #a271f2;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.umumi span:first-child {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.umumi span:last-child {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: white;
+}
+
+.stat1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+.stat1 span:first-child {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.stat1 span:last-child {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.sonbtn {
+    background-color: #2bc48a;
+    color: white;
+    width: 97%;
+    margin: 20px 12px;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+
+.crd {
+    background-color: white;
+}
+
+footer {
+    background-color: #faf4ff;
+    margin-top: 50px;
+    height: fit-content;
+    padding-left: 40px;
+}
+
+.hst1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hst2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hst1 p {
+    padding-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hst1 p:hover {
+    color: #a271f2;
+}
+
+.hst2 p {
+    padding-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.hst2 p:hover {
+    color: #a271f2;
+}
+
+.copy {
+    margin: 30px 0;
+}
+
+.footr2 {
+    margin-top: 30px;
+}
+
+.sytaz {
+    margin: 30px 0;
+}
+
+@media only screen and (min-width: 1100px) {
+    .xdmt ul {
+        display: flex;
+        text-align: center;
+        gap: 50px;
+        font-size: 1.3em;
+        font-weight: 500;
+    }
+
+    .xdmt ul li:hover {
+        color: #7d3be2;
+        cursor: pointer;
+
+    }
+
+    .dropdown {
+        display: none;
+    }
+
+    .buton1 {
+        display: inline-block;
+        background: rgb(123, 53, 226);
+        background: linear-gradient(86deg, rgba(123, 53, 226, 1) 16%, rgba(215, 64, 237, 1) 65%, rgba(255, 11, 255, 1) 86%);
+    }
+
+    .buton2 {
+        display: inline-block;
+        color: #a271f2;
+        border: solid 1px #a271f2;
+    }
+
+    .statik {
+        width: 100%;
+    }
+
+    .card1 {
+        width: 60%;
+    }
+
+    .sade {
+        display: flex;
+        gap: 37%;
+        margin-bottom: 20px;
+    }
+
+    .hiseler {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lbl1 {
+        display: flex;
+        justify-content: space-between;
+        gap: 110px;
+    }
+
+    .hisseler {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .lbl2 {
+        display: flex;
+        justify-content: space-between;
+        gap: 110px;
+    }
+
+    .conteinr {
+        width: 80%;
+        display: flex;
+    }
+
+    .card2 {
+        width: 35%;
+        margin: 20px 12px;
+        height: fit-content;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 80px;
+    }
+
+    .crd {
+        width: 100%;
+    }
+
+    .sonbtn {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    .fotlogo img {
+        width: 200px;
+    }
+
+    .footr1 {
+        width: 50%;
+        padding-top: 70px;
+        padding-left: 130px;
+    }
+
+    .sytaz {
+        margin-top: 40px;
+    }
+
+    .soncrdlar {
+        display: flex;
+    }
+
+    .footr2 {
+        display: flex;
+        gap: 90px;
+        width: 50%;
+        padding-top: 100px;
+        padding-right: 130px;
+    }
+
+    .copy {
+        width: 50%;
+        padding-top: 70px;
+        padding-left: 130px;
+        padding-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .card1 {
+        width: 100%;
+    }
+
+    .conteinr {
+        width: 100%;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+}
